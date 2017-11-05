@@ -8,6 +8,10 @@ app.get('/', function(req, res){
     res.send('Hello Folks!');
 });
 
+app.get('/routing', function(req, res){
+    res.send('Hello Routing!');
+});
+
 app.listen(port, function(err){
     console.log('Server is up and runnong on port: ' + port);
 });
